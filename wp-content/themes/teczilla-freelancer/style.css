@@ -1,0 +1,592 @@
+/*
+Theme Name: Teczilla Freelancer
+Theme URI: 
+Template: teczilla
+Author: avadantathemes
+Author URI: https://www.avadantathemes.com/
+Description:  Teczilla freelancer is a child theme of teczilla wordpress which is multipurpose theme and it has most beautiful designs.you can make any website using this theme which is compaitable to all type of websites.It has built in typography also dynamic typography also has unlimited color options in it.The theme suitable for freelancer, architecture, interior design, business, decoration, business, furniture, home decor, law firm, freelancer, insurance, app landing page, it solutions, shop ecommerce, marketing, gym, blog, travel freelancer, construction, spa salons, wedding planners, Beauty, photography, and many other websites compatible.all the sections has diffeent option with multiple settings.It has full width template which is responsive in all devices. SEO optimized pages and fast speed loading.Compatible with gutenberg, elemnetor page builder WooCommerce, contact form 7, Jetpack, Google analytics and so many popular premium &amp; free plugins nicely works with teczilla theme. For more theme information, check out Theme demo here at https://www.avadantathemes.com/demo/teczilla-freelancer/ and theme instructions here at https://www.avadantathemes.com/documentation/teczilla-free-theme/
+Version: 1.0.1
+Requires at least: 5.0
+Tested up to: 6.1
+Requires PHP: 5.6
+Text Domain: teczilla-freelancer
+Tags: one-column, two-columns, four-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, post-formats, theme-options, threaded-comments,  portfolio
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv2 or later
+*/
+
+body{
+
+   font-family: 'Archivo', sans-serif;
+}
+
+.carousel-inner .home-slider .container .slider-caption:after{
+    background: #ff4a1700 !important;
+    position: unset !important;
+}
+
+.toolbar-area{
+position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.toolbar-area{
+    background-color: transparent !important;
+}
+
+.tec-agncy-stick.sticky{
+
+    padding-top: 35px !important;
+    padding-top: 15px !important;
+
+}
+
+.readon-arrow{
+
+    text-decoration: none !important;
+}
+
+.widget_tag_cloud .wp-block-tag-cloud a{
+
+    background: transparent;
+}
+
+.wp-block-search__button.has-icon{
+    border-radius: 20px;
+    padding: 7px;
+    background: #ff3c58;
+    color: #fff;
+}
+.wp-block-search__inside-wrapper{
+    border-radius: 25px;
+    padding: 4px;
+}
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{
+    border-radius: 15px;
+    padding: 0 0 0 1em;
+}
+
+.widget_tag_cloud .wp-block-tag-cloud a {
+    background: transparent !important;
+    border: 2px solid #d2d2d2;
+}
+.sidebar-search.sidebar-widget.widget_block{
+    padding: 14px 13px;
+}
+.sidebar-widget .wp-block-archives li:before{
+    color: #ff3c58;
+}
+.blog-wrap .content-part .readon-arro{
+    padding: 9px 20px;
+    background: #ff3c58;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 5px;
+}
+.fa-user-o:before,.fa-calendar-check-o:before{
+    color: #ff3c58;
+}
+
+.blog-wrap .content-part .readon-arrow{
+    padding: 9px 20px;
+    background: #ff3c58;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 5px;
+}
+
+.readon-arrow:after{
+    content: "";
+}
+
+.toolbar-contact ul{
+
+    display: inline-flex;
+}
+
+.toolbar-contact ul li{
+
+    padding-left: 16px;
+    color: #fff;
+}
+
+.toolbar-contact ul li a{
+
+    color: #fff;
+    padding-left: 10px;
+}
+
+.current_page_item {
+    background-color:transparent !important;
+    
+}
+
+.toolbar-contact{
+    text-align: center;
+    margin-top: -80px;
+}
+
+.full-width-header .teczilla-menu-area {
+    background: rgba(248,252,252);
+    position: relative;
+    border-bottom: 1px solid #dce9e9;
+}
+.home-slider{
+    background: rgba(248,252,252);
+}
+
+
+.full-width-header .tec-agncy-stick{
+    padding-top: 0px !important;
+    padding-bottom: 0px;
+}
+
+.buttn{
+    text-align: right;
+}
+
+.home-slider2 .container .slider-caption .slider-bottom .slider-btn{
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 13px 60px 13px 30px;
+    position: relative;
+    border-radius: 7px;
+    background: #ff3c58 !important;
+}
+.home-slider2 .container .slider-caption .slider-bottom .slider-btn:hover{
+    background: #ff3c58 !important;
+}
+.home-slider2 .container .slider-caption .slider-bottom .slider-btn:after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    top: 50%;
+    right: 18px;
+}
+
+.blog-wrap .image-part:after{
+    position: absolute;
+    background: linear-gradient(-60deg, #252531e3, #332304ed);
+    height: 100%;
+    width: 100%;
+    content: "";
+    left: 0;
+    bottom: 0;
+    opacity: 0.15;
+    -moz-transition: all 500ms ease-out 0s;
+    -webkit-transition: all 500ms ease-out 0s;
+    -ms-transition: all 500ms ease-out 0s;
+    -o-transition: all 500ms ease-out 0s;
+    transition: all 500ms ease-out 0s;
+}
+
+
+.blog-wrap:hover .image-part:after {
+    opacity: 0.5;
+}
+
+.blog-wrap .image-part{
+    overflow: hidden;
+    position: relative;
+}
+
+.blog-wrap img{
+    overflow: hidden;
+   moz-transition: all 400ms ease-out 0s;
+    -webkit-transition: all 400ms ease-out 0s;
+    -ms-transition: all 400ms ease-out 0s;
+    -o-transition: all 400ms ease-out 0s;
+    transition: all 400ms ease-out 0s;
+}
+
+.blog-wrap:hover img{
+    transform: scale(1.1);
+}
+                
+.sidebar{
+    background-color: #ffffff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+   /* box-shadow: 0px 14px 30px rgb(0 0 0 / 7%);*/
+    padding: 0px 5px 0px;
+}
+
+.buttn li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    background-color: #ff3c58;
+    color: #ffffff;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 9px 29px;
+}
+.buttn li a:hover{
+    background-color: #ff3c58;
+}
+
+.menu>.menu-item>a, .menu .page_item a{
+        color: #070707 !important;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.container{
+    max-width: 1300px !important;
+}
+
+
+.menu-item-has-children>a:after{
+    content: "+" !important;
+    font-size: 21px !important;
+    top: 30px;
+    color: #ff3c58;
+    right: 0px;
+    font-weight: 900 !important;
+}
+.menu>.menu-item>a:hover{
+    color: #ff3c58 !important;
+}
+.menu>.menu-item-has-children>a:hover:after{
+    content: "-" !important;
+    right: 2px !important;
+    /*font-size: 26px !important;*/
+    top: 26px !important;
+}
+.main-navigation .menu-item-object-page.menu-item-has-children .sub-menu{
+    background-color: #fff !important;
+}
+.main-navigation ul .sub-menu li a{
+    color: #000 !important;
+}
+.main-navigation ul li:hover > ul{
+    left: 20px;
+    right: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+@media screen and (min-width: 992px){
+    .sticky {
+        background: rgba(248,252,252) !important;
+    }
+}
+
+.teczilla-title{
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.sidebar-widget.widget_block h2{
+    color: #1c1b1b;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 800;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    padding-bottom: 0px;
+}
+
+
+.sidebar .widget_search{
+    padding-bottom: 10px;
+}
+
+.sidebar-grid .sidebar-title .title:after, .widget_block .wp-block-group h2:after{
+    display: none;
+}
+
+.gray-bg {
+    background: #f8fcfc;
+}
+
+.menu-sticky{
+    box-shadow: none;
+}
+
+.blog-wrap .content-part .blog-meta {
+    padding-left: 0;
+    margin-bottom: 7px;
+}
+
+#scrollUp i {
+    border-radius: 50%;
+}
+
+.error-44{
+    position: relative;
+}
+
+.error-44:before {
+    top: 0;
+    background: #000;
+    position: absolute;
+    content: "";
+    opacity: 0.85;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+
+.menu-toggle {
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    position: absolute;
+    display: none;
+    top: -25px;
+    font-size: 14px;
+    right: 20px;
+    font-size: 0.875rem;
+    font-size: 20px;
+    font-weight: 800;
+    /* float: right; */
+    margin-top: -16px;
+    text-shadow: none;
+}
+
+
+@media only screen and (max-width: 991px){
+
+    .main-navigation {
+        padding: 0;
+        margin-top: 0;
+    }
+    .buttn{
+        display: none;
+    }
+    .full-width-header .tec-agncy-stick {
+        padding-top: 0 !important;
+    }
+
+}
+
+.carousel-control-next-icon:before,
+.carousel-control-prev-icon:before{
+
+    background: #000 !important;
+}
+
+.carousel.slide::after {
+    background: #8b6b9d;
+    opacity: 0.35;
+}
+
+.tec-testimonial.style1 .slider-part {
+    background: #ffffff;
+    box-shadow: 0px 30px 40px 0px rgb(0 0 0 / 4%);
+}
+.tec-team{
+    background: #ffffff;
+}
+
+.tec-breadcrumbs .inner-title h2 {
+    padding-top: 15px;
+}
+
+.teczillaa-fullwidth .blog-wrap{
+    border:none;
+    padding-top:50px;
+}
+
+.inner-title{
+    padding-top: 156px !important;
+}
+
+
+.error-text-large{
+    display: block;
+}
+.gray-bg2{
+    background: unset;
+}
+
+.tec-about .image-part img{
+
+    width: 100%;
+}
+
+.error-content img{
+
+    max-width: 280px;
+}
+
+.error-content{
+
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.menu-toggle:focus-visible{
+
+    border: 2px solid #fff !important;
+}
+
+.tec-blog.inner .blog-wrap .content-part {
+    background: #fff;
+    box-shadow: 0px 14px 30px rgb(0 0 0 / 7%);
+    padding: 22px 35px 30px;
+}
+.nav-links .page-numbers, .social li{
+    background-color: #ff3c58 !important;
+    border: 1px solid #ff3c58 !important;
+    border-radius: 10px;
+}
+.nav-links .page-numbers.current{
+    background-color: transparent !important;
+    color: #ff3c58;
+}
+.navigation.pagination .nav-links .page-numbers:hover{
+    border-bottom: 1px solid #ff3c58 !important;
+    color: #ff3c58 !important;
+    background: transparent !important;
+}
+
+.tec-blog.inner .blog-wrap .content-part .title a {
+    font-size: 22px;
+    line-height: 30px;
+    word-break: break-word;
+    font-weight: 500;
+}
+
+.sidebar-widget.widget_block h2{
+
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 12px;
+    border-left: 5px solid #ff3c58;
+}
+
+.tec-footer .footer-bottom {
+    padding: 11px 0;
+}
+
+
+.tec-services.style2 .service-wrap {
+    background: #f1f1f1;
+}
+
+ .sidebar-widget.widget_archive li:before, 
+ .sidebar-widget.widget_categories li:before, 
+ .sidebar-widget.widget_meta li:before, 
+ .sidebar-widget .wp-block-archives li:before, 
+ .sidebar-widget .wp-block-categories li:before {
+    content: "\f205";
+}
+
+.section-xx .blog-wrap{
+
+    border: none;
+    padding-top: 40px;
+}
+
+.tec-blog.style1 .blog-wrap .content-part .blog-meta .user-data {
+    padding-right: 10px;
+}
+
+.tec-blog.style1 .blog-wrap .content-part .blog-meta {
+    justify-content: unset;
+    font-size: 12px;
+}
+
+.sec-title .sub-title.primary:after {
+    top: 15px;
+    margin-left: 10px;
+    width: 23px;
+    height: 2px;
+}
+
+.wgs.comments{
+
+width: 100%;
+}
+
+@media screen and (min-width: 992px){
+.main-navigation li a {
+    font-weight: 300;
+}
+}
+
+
+@media screen and (max-width: 992px){
+.text-left{
+
+    text-align: center !important;
+}
+}
+@media screen and (min-width: 992px){
+.main-navigation li {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+}
+
+.home-slider2 .slider-description {
+    position: relative;
+}
+
+.header-menus .teczilla-add-menu{
+   background-color: #000 !important;
+}
+.home-slider2 {
+    background: rgba(248,252,252);
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+	.home-slider2 .container .slider-caption .slider-title {
+   
+    font-size: 42px;
+   
+}
+
+.home-slider2 .container .slider-caption .slider-bottom .slider-btn {
+	font-size:14px;
+}
+.home-slider2 .container {
+    padding: 0 30px !important;
+}
+
+}
+
+@media only screen and (max-width: 767px)
+{
+	.home-slider2{
+		text-align:center;
+	}
+	
+	.home-slider2 .container .slider-caption .slider-title {
+   
+    font-size: 42px;
+   
+}
+.home-slider2 .slider-caption .slider-description h3{
+	margin:auto;
+	margin-bottom:30px;
+}
+
+.home-slider2 .slider-caption .slider-description h3{
+	margin:auto;
+	margin-bottom:30px;
+}
+.home-slider2 img{
+	width:70% !important;
+	margin:auto;
+}
+	
+	
+}

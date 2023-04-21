@@ -1,0 +1,566 @@
+/* teczilla consulting theme css */
+
+@media screen and (min-width: 992px){
+	.main-navigation #primary-menu {    
+		padding-right: 0px !important;
+	}
+}
+@media screen and (max-width: 992px){
+    .main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul{
+        background-color: #fff !important;
+    }
+    .main-navigation .menu-item-object-page.menu-item-has-children .sub-menu{
+        background-color: #fff !important;
+    }
+    .dropdown-toggle{
+        margin-top: 10px;
+    }
+    .menu-item-has-children>a:after{
+        display: none;
+    }
+    .main-navigation ul .sub-menu li a{
+        color: #000 !important;
+    }
+}
+/* navigation style */
+
+
+ .wp-caption, 
+ .wp-caption-text, .bypostauthor  
+ .alignright, .alignleft,
+ .aligncenter{
+
+ }
+.sub-menu li{
+	padding-bottom: 0px;
+}
+@media screen and (min-width: 992px){
+	.main-navigation a {
+		padding: 10px 15px;
+	}
+	.menu-item-has-children>a:after {	   
+		right: 0px;		
+	}
+}
+
+.full-width-header .tec-header .menu-area{
+
+	background: transparent !important;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	display: none !important;
+}
+
+
+.logo-area img{
+
+
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul li {
+    height: 35px;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul {
+    text-align: left;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul li a {
+     border-radius: 0;
+    font-size: 16px;
+    color: #fff;
+}
+.error-content h5 {
+    padding-bottom: 50px;
+}
+
+.sidebar-widget.widget_block.widget_search{
+	margin-bottom: 15px;
+	    padding: 10px 5px;
+}
+
+.comment-respond .form-submit input{
+
+	border-radius: 35px;	
+}
+
+.home-slider img{
+
+	height: auto;
+}
+.teczilla-title {
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+.full-width-header .tec-agncy-stick {
+ 
+    padding-bottom: 20px;
+}
+
+.tec-blog.style1 .blog-wrap .content-part .blog-meta .date {
+    font-size: 13px !important;
+}
+
+.tec-blog.style1 .blog-wrap .content-part .title a {
+    word-break: break-word;
+}
+
+.home-slider .slider-caption .slider-description h3{
+	font-size: 16px !important;
+    color: #000;
+    width: max-content;
+    box-shadow: 0px 16px 32px 0px rgb(0 0 0 / 6%);
+    padding: 2px 18px 2px 55px;
+    border-radius: 22px;
+    background: #fff;
+    margin-bottom: 30px;
+	line-height: 32px;
+}
+.home-slider .container .slider-caption{
+	padding: 0;
+
+}
+.home-slider .slider-caption .slider-description h3:after{
+	background-color: transparent;
+}
+.home-slider .slider-caption .slider-description h3:before{
+	content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    margin-left: -35px;
+    background-color: #ff3c58;
+    top: 17px;
+}
+.home-slider .container .slider-caption .slider-title{
+	color: #000000;
+    font-size: 80px;
+    word-break: unset;
+    font-weight: 700;
+}
+.home-slider .slider-btn {
+    padding: 15px 29px;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    background: #ffffff;
+    color: #000;
+    transition: all 0.3s ease;
+}
+.home-slider .container .slider-caption .slider-bottom {
+    display: inline-block;
+    margin: 39px 0 20px;
+}
+.home-slider .container .slider-caption .slider-bottom ul li:last-child {
+    margin: 0;
+}
+.home-slider .container .slider-caption .slider-bottom ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.home-slider .container .slider-caption .slider-bottom .slider-btn {
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 13px 60px 13px 30px;
+    position: relative;
+    border-radius: 7px;
+    background: #ff3c58 !important;
+}
+.home-slider .container .slider-caption .slider-bottom .slider-btn {
+    display: block !important;
+}
+
+.tec-about .sec-title .sub-title.primary{
+	font-size: 16px !important;
+    color: #000 !important;
+    width: max-content;
+    box-shadow: 0px 20px 40px rgb(0 0 0 / 20%);
+    padding: 5px 50px 5px 15px;
+    border-radius: 22px;
+    background: #fff;
+    margin-bottom: 25px;
+}
+.tec-about .sec-title .title{
+	font-size: 62px;
+}
+.tec-about .sec-title .desc{
+	color: #757c80;
+}
+.tec-about.inner .image-part{
+	padding-right: 55px;
+}
+.btn-part .readon{
+	color: #fff;
+    border: 1px solid transparent;
+    padding: 11px 33px 11px 33px;
+    position: relative;
+    border-radius: 7px;
+    background: #ff3c58;
+}
+.logo-area .teczilla-title a{
+	font-size: 32px;
+    letter-spacing: 2px;
+    word-break: break-word;
+}
+.logo-area .teczilla-title::first-letter{
+	color: #ff3c58 !important;
+	font-size: 44px;
+	font-weight: 700;
+}
+
+/*Service Section*/
+
+.servy{
+	text-align: center;
+	border: 1px solid #efefef;
+    padding: 35px 10px;
+    border-radius: 10px;
+  margin-bottom:30px;
+}
+.servy:hover{
+	border: 1px solid #ff3c58;
+}
+.servy-pic i{
+	font-size: 45px;
+    background: #fff;
+    box-shadow: 0px 20px 40px rgb(0 0 0 / 15%);
+    padding: 6px 8px;
+    color: #ff3c58;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+.servy-prof .servy-title{
+	word-break: unset;
+	font-size: 20px;
+	margin-bottom:20px;
+}
+.servy-prof .servy-title a{
+	color: #000;
+	font-weight: 600;
+}
+.servy-prof .servy-description{
+	    color: #525151;
+    font-weight: 100 !important;
+    font-size: 16px;
+}
+
+
+
+.btn-part .readon.banner-style{
+	border: 2px solid #fff;
+	background: transparent;
+}
+
+/*Portfolio Section*/
+
+.tec-portfolio .sec-title .sub-title.primary{
+	font-size: 16px !important;
+    color: #000 !important;
+    width: max-content;
+    box-shadow: 0px 16px 32px 0px rgb(0 0 0 / 6%);
+    padding: 5px 50px 5px 15px;
+    border-radius: 22px;
+    background: #fff;
+    margin-bottom: 25px;
+}
+.tec-portfolio .sec-title .title{
+	font-size: 62px;
+}
+
+/*Testimonial Section*/
+
+.tec-testimonial .sec-title .sub-title.primary{
+	font-size: 16px !important;
+    color: #000 !important;
+    width: max-content;
+    box-shadow: 0px 20px 40px rgb(0 0 0 / 20%);
+    padding: 5px 50px 5px 15px;
+    border-radius: 22px;
+    background: #fff;
+    margin-bottom: 25px;
+}
+.testi .pic img{
+	border-radius: 9px;
+}
+.tec-testimonial .sec-title .title{
+	font-size: 62px;
+}
+.sec-title.style2 .first-half{
+	max-width: 55%;
+	flex: 0 0 55%;
+}
+.testi .description{
+	font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 1px;
+}
+.testi .post-title{
+	margin-bottom: 0;
+}
+.testi .post-title a{
+	font-size: 18px;
+    color: #000;
+} 
+.testi .sub-t small{
+	color: #999999;
+	font-size: 15px;
+}
+
+/*Team Section*/
+
+.tec-team .sec-title .sub-title.primary{
+	font-size: 16px !important;
+    color: #000 !important;
+    width: max-content;
+    box-shadow: 0px 20px 40px rgb(0 0 0 / 20%);
+    padding: 5px 50px 5px 15px;
+    border-radius: 22px;
+    background: #fff;
+    margin-bottom: 25px;
+}
+.tec-team .sec-title .title{
+	font-size: 62px;
+}
+
+.our-team .pic{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 350px;
+    margin: auto;
+    height: 350px;
+    position: relative;
+}
+.our-team .pic:before,
+.our-team .pic:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 13px solid #e6e5e5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.our-team .pic:after{
+    border-color: #ff3c58 #e6e5e5 #e6e5e5 #ff3c58;
+    z-index: 1;
+    transform: rotate(-10deg);
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic:after{ transform: rotate(350deg); }
+.our-team img{
+    width: 100%;
+    height: auto;
+}
+.our-team .title{
+    font-size: 26px;
+    font-weight: bold;
+    color: #222;
+    padding-bottom: 10px;
+    margin: 15px 0 10px 0;
+    position: relative;
+}
+.our-team .title:after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #222;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+}
+.our-team .icon{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.our-team .icon li{ display: inline-block; }
+.our-team .icon li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    font-size: 14px;
+    color: #999;
+    margin-right: 5px;
+    transition: all 0.3s ease-out 0s;
+}
+.our-team .icon li a:hover{
+    background: #37b0f1;
+    color: #fff;
+}
+.our-team{ text-align: center; }
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+
+/*Blog Section*/
+
+.tec-blog .sec-title .sub-title.primary{
+	font-size: 16px !important;
+    color: #000 !important;
+    width: max-content;
+    box-shadow: 0px 20px 40px rgb(0 0 0 / 20%);
+    padding: 5px 50px 5px 15px;
+    border-radius: 22px;
+    background: #fff;
+    margin-bottom: 25px;
+}
+.tec-blog .sec-title .title{
+	font-size: 62px;
+}
+
+.thumbnail-img img {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    line-height: 0;
+    position: relative;
+    transition: opacity 300ms ease-out,transform 300ms ease-out,filter 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out,-moz-transform 300ms ease-out,-moz-filter 300ms ease-out;
+    -o-transition: opacity 300ms ease-out,-o-transform 300ms ease-out,-o-filter 300ms ease-out;
+    -webkit-transition: opacity 300ms ease-out,-webkit-transform 300ms ease-out,-webkit-filter 300ms ease-out;
+}
+.thumbnail-img{
+    overflow: hidden;
+    background: #000;
+    border-radius: 8px 8px 0 0;
+}
+.thumbnail-img:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: .5;
+    background: #000;
+    border-radius: 8px 8px 0 0;
+}
+.blog-rec{
+    color: #002e5b;
+    -webkit-transition: background 300ms,color 300ms,border-color 300ms;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 8px;
+    height: auto;
+    margin-top: 20px;
+    transition: transform 150ms ease-out,box-shadow 150ms ease-out,border-color 300ms ease-out,border-width 300ms;
+    -moz-transition: transform 150ms ease-out,-moz-box-shadow 150ms ease-out,border-color 300ms ease-out,border-width 300ms;
+    -o-transition: transform 150ms ease-out,-o-box-shadow 150ms ease-out,border-color 300ms ease-out,border-width 300ms;
+    -webkit-transition: transform 150ms ease-out,-webkit-box-shadow 150ms ease-out,border-color 300ms ease-out,border-width 300ms;
+}
+.blog-rec:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transform: translate3d(0, -12px, 0);
+}
+.blog-rec .blog-rec-con {
+    padding: 30px 15px 30px;
+}
+.blog-rec .blog-rec-con .content-blog {
+    margin-bottom: 20px;
+}
+.blog-rec .blog-rec-con .content-blog .date-blog {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    float: left;
+}
+.blog-rec .blog-rec-con .content-blog .rec-auth {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    float: right;
+}
+.blog-rec .blog-rec-con .content-blog .rec-auth a,
+.blog-rec .blog-rec-con .content-blog .date-blog a{
+    color: #a5a5a5;
+}
+.blog-rec .blog-rec-con .title-blog{
+	display: inline-table;
+    width: 100%;
+}
+.blog-rec .blog-rec-con .title-blog a{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #222222;
+}
+
+
+
+@media only screen and (max-width: 991px){
+	.tec-about .sec-title .title,
+	.tec-blog .sec-title .title,
+	.tec-team .sec-title .title,
+	.tec-testimonial .sec-title .title,
+	.tec-portfolio .sec-title .title{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 765px){
+    .tec-carousel .blog-rec{
+        height: auto;
+    }
+    .testi .description{
+        margin-top: 15px;
+    }
+}
+.js .menu-toggle{
+	color: #000;
+}
+
+/*@media only screen and (min-width: 500px){
+    #site-navigation .menu>.menu-item>a, .menu .page_item a{
+    	color: #fff !important;
+    }
+}*/
+
+@media only screen and (max-width: 992px){
+	#primary-menu, .current_page_item{
+		background: #ffffff !important;
+	}
+	.menu-all-pages-container .menu-item-has-children>a:after{
+		display: none;
+	}
+	.dropdown-toggle::after{
+		color: #000;
+	}
+}
+
+.row.align-items-center{
+	margin-top: 50px;
+}
+
+#teczilla_slider_section{
+	padding: 80px 1px;
+	padding-bottom: 0;
+}
+
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul{
+    left: -101%;
+    right: auto;
+    top: 5px;
+}
+
+.teczilla-menu-area .container-fluid {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
